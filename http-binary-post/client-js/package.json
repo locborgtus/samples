@@ -1,0 +1,14 @@
+{
+  "name": "client-js",
+  "version": "1.0.0",
+  "description": "HTTP client to upload binary data using POST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}

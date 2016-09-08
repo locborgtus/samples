@@ -1,0 +1,15 @@
+{
+  "name": "server-js",
+  "version": "1.0.0",
+  "description": "sample http post server receiving binary POST data",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.14.0",
+    "body-parser": "1.15.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
