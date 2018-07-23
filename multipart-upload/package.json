@@ -1,0 +1,19 @@
+{
+  "name": "multipart_upload",
+  "version": "1.0.0",
+  "description": "Demo code for HTTP multipart data upload",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "form-data": "^2.3.2",
+    "multer": "^1.3.1",
+    "xlsx": "^0.13.2"
+  }
+}
