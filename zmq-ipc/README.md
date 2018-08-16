@@ -6,14 +6,13 @@ This sample demonstrates how to use zeromq using IPC transport. Both pub/sub and
 
 Tested using:
 
-* OSX El Capitan
-* ZMQ 4.1.5 installed w/ port
-* zmq@2.15.3
-* nodejs@6.3.1
+* MacOS High Sierra
+* zeromq@4.6.0
+* nodejs@8.11.2
 
 ## Init steps ##
 
-* Run `npm install zmq@2.15.3` at the zmq-ipc folder, the sample codes will find this module.
+* Run `npm install zeromq@4.6.0` at the zmq-ipc folder, the sample codes will find this module.
 * No need to manually create the end point `/tmp/pipe`. It'll get auto created by whoever is the sender.
 
 ## Sample code notes ##

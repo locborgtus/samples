@@ -1,4 +1,4 @@
-const zmq = require('zmq'),
+const zmq = require('zeromq'),
       sock = zmq.socket('push');
 
 sock.bindSync('ipc:///tmp/pipe');
