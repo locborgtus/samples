@@ -1,13 +1,18 @@
 # Simple http-proxy-middleware demo
 
 ## Basic concept
-The concept is to use the `http-proxy-middleware` module to bring up a simple proxy application that proxy requests to 2 local servers on different ports.
 
-Server 1 is `localhost:6000`
-Server 2 is `localhost:6001`
+**The concept is to host multiple backends on a single server using just 1 DNS name and 1 single port. This is also known as a reverse proxy.** 
+
+In this demo, we use the `http-proxy-middleware` module to bring up a reverse proxy application that forwards HTTP requests to 2 local backend applications on different ports.
+
+Backend 1 is `localhost:6000`
+Backend 2 is `localhost:6001`
 Proxy is `0.0.0.0:3000`
 
-Server 1 and 2 are essentially hidden from the outside world. To access them, we have to go through the proxy.
+Backend 1 and 2 are hidden from the outside world. To access them, we have to go through the proxy.
+
+The proxy can forward requests to localhost (if the backends are lightweight) or to remote servers. For remote servers, the DNS server names become much less important because they are never exposed to the users, only to the DevOps admins.
 
 The proxy works by mapping certain paths in the URL to route to a different server. In this demo, `/target1` and `/target1` maps to server 1 and server 2 respectively. The code is in `proxy.js`.
 
