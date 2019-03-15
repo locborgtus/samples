@@ -6,9 +6,9 @@
 
 In this demo, we use the `http-proxy-middleware` module to bring up a reverse proxy application that forwards HTTP requests to 2 local backend applications on different ports.
 
-Backend 1 is `localhost:6000`
-Backend 2 is `localhost:6001`
-Proxy is `0.0.0.0:3000`
+* Backend 1 is `localhost:6000`
+* Backend 2 is `localhost:6001`
+* Proxy is `0.0.0.0:3000`
 
 Backend 1 and 2 are hidden from the outside world. To access them, we have to go through the proxy.
 
