@@ -1,0 +1,17 @@
+{
+  "name": "proxy-test",
+  "version": "0.0.1",
+  "description": "Simple demo to show how http-proxy-middleware works",
+  "main": "proxy.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "opn": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
